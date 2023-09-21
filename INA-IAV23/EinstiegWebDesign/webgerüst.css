@@ -1,0 +1,35 @@
+body {
+    width: 100%;
+}
+
+header {
+    background: aquamarine;
+    border: black solid 1px;
+    width: 100px;
+}
+
+nav {
+    background-color: red;
+    border: black solid 1px;
+    width: 100px;
+
+}
+
+article {
+    background: darkorange;
+    border: black solid 1px;
+    width: 100px;
+}
+
+aside {
+    background: blueviolet;
+    border: black solid 1px;
+    width: 100px;
+}
+
+footer {
+    background: chartreuse;
+    border: black solid 1px;
+    width: 100px;
+}
+
