@@ -1,0 +1,45 @@
+
+body {
+    display: grid;
+    grid-template: auto / 400px 400px 400px; /* Definiert die Spalten und Reihen*/
+    border: 2px solid black;
+    background-color: khaki;
+    width: 1200px;
+}    
+
+@media(max-width: 50em) { /* Definiert den maximal weiter der Seite und dementsprechend den Style*/
+    body {
+        grid-template: 50px / auto auto 200px;
+        border: none;
+        background-color: white;
+    } 
+}   
+
+header {
+    background-color: #c82f04;
+    grid-column: 1 / -1;
+    height: 200px;
+}
+
+nav {
+    background-color: #dfac20;
+}
+
+main {
+    background-color: #93b946;
+}
+
+aside {
+    background-color: #e6f2f7;
+}
+
+nav, main, aside {
+    height: 400px;
+}
+
+footer {
+    background-color: #337599;
+    grid-column: 1 / 4;
+    height: 200px;
+}
+
