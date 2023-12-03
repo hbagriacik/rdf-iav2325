@@ -1,0 +1,16 @@
+﻿
+			p, ul {
+				font-size: 21px;
+			}
+			.liste1, liste2, liste3 {
+				list-style-type:none;	
+			}
+			.fa-cc-visa {
+				color:red;
+			}
+			.fa-cc-paypal {
+				color:blue;
+			}
+			.fa-cc-mastercard {
+				color:green;
+			}

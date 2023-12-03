@@ -1,0 +1,37 @@
+.e_tv_nav {
+    color: #0f4496;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    text-align: left;
+}
+
+.tmv_box{
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px;
+    padding: 0;
+}
+
+.bereich_panel{
+    padding-top: 10px;
+    clear: both;
+}
+
+.e_tv{
+    max-width: 185px;
+    vertical-align: top;
+    height: 174px;
+    text-align: center;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.e_tv_maintable {
+    max-width: 185px;
+    vertical-align: top;
+    height: 174px;
+    text-align: center;
+    padding: 5px;
+    box-sizing: border-box;
+}

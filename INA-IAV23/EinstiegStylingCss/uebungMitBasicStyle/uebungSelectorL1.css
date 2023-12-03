@@ -1,0 +1,9 @@
+h1{
+    font-size: 60px;
+    color: gray;
+}
+
+ul > li {
+    color: red;
+    list-style: lower-roman;
+}

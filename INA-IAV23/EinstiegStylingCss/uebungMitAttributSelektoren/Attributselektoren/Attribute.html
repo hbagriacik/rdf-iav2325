@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="de">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<title>Attribut Selektoren</title>
+        <link href="https://fonts.googleapis.com/css?family=Asap&display=swap" rel="stylesheet">
+        <link href="./css/styles.css" rel="stylesheet" type="text/css">
+        <link href="./css/all.css" rel="stylesheet" type="text/css">
+ 	</head>
+
+	<body>
+		<h1 class="box">Beispiele mit Attributselektoren</h1>
+        <p>Eigentlich kann man fast alles mit Attribut-Selektoren angesprechen.</p>
+        <h2>1 Links mit einem bestimmten Filetype</h2>
+        <p>
+            <a href="file.pdf">PDF-File PDF</a>
+            <a href="file.doc">Word-File DOC</a>
+            <a href="file.xls">Exel-File XLS</a>
+        </p>
+        <p>Die Formatierung der obenstehenden Links erfolgt über den Dateityp in der Linkadresse: also 'pdf', 'doc' bzw. 'xls'.</p> 
+        <h2>2 Attribute deren Wert mit einem bestimmten Wort enden</h2>
+        <p>In diesem Beispiel wird das 'title' Attribut angesprochen, bei dessen Wert am Ende das Wort 'Nürnberg' steht.</p>
+        <p>
+            <a href="https://www.nuernberg.de/internet/stadtportal/index.html" title="Titel: Stadtportal Nürnberg" >Stadtportal Nürnberg</a>
+            <a href="https://www.infranken.de/regional/nuernberg/verkehrsstreit-in-nuernberg-eskaliert-mann-55-muss-mit-kopfverletzungen-ins-krankenhaus;art88523,4614247" title="Titel: Verkehrsstreit in Nürnberg eskaliert" >Verkehrsstreit in Nürnberg eskaliert</a>
+            <a href="https://www.infranken.de/regional/nuernberg/nuernberg-17-jaehriger-zerstoert-rettungswagen-und-verletzt-sanitaeterin-waehrend-freundin-behandelt-wird;art88523,4614164" title="Titel: Nürnberg: 17-Jähriger zerstört Rettungswagen" >Nürnberg: 17-Jähriger zerstört Rettungswagen</a>       
+        </p>
+
+        <p class="attention">Achtung: Gross- bzw. Kleinschreibung muss beachtet werden, ansonsten funktioniert es nicht.</p>
+
+        <h2>3 Irgendwo im Attribut ein bestimmtes Wort</h2>
+        <p>In diesem Beispiel wird das 'title' Attribut angesprochen, bei dem an beliebiger Stelle im Wert das Wort 'KTM' vorkommt.</p>
+        <p>
+            <a href="https://www.ktm-motohall.com/" title="KTM Motorhall" >Motorhall</a>
+            <a href="https://www.motorradonline.de/ratgeber/yamaha-tenere-700-adventure-bike/" title="Yamaha T700" >Zubehörpakete für Adventure Bikes von Yamaha und KTM</a>
+            <a href="https://www.jpcycles.com/makes/ktm" title="Shop Motorcycle Parts: KTM, Yamaha, ..." >Shop Motorcycle Parts</a>
+        </p>
+
+        <h2>4 Attribute deren Wert mit einem bestimmten Wort beginnen</h2>
+        <p>Hier wird das Attribut 'href' angesprochen. Beginnt die Adresse mit 'http://' wird ein Icon angezeigt. So können zum Beispiel alle externen Links mit Attribut-Selektoren angesprochen werden</p>
+
+
+        <p><a href="http://irgendwohin.weg" title="http://irgendwohin.weg">http://irgendwohin.weg</a></p>
+
+
+        <h2>5 Ansprechen eines speziell definierten Attributes</h2>
+        <p>Selektoren auf das Attribut 'type' eines Input Elements ersetzen Klassen, die vorher gebraucht wurden um den verschiedenen Typen (text, radio, checkbox) gerecht zu werden.</p>
+        <p>Für Formulare eignen sich Attribut-Selektoren besonders. Man kann sie nach dem title Attribut selektieren, oder wie im folgenden Beispiel den Input-Type direkt ansprechen. Man kann diese Anwendungen auch problemlos kombinieren oder nur spezielle Inputs vom Typ text ansprechen, in denen ein bestimmtes Wort im title vorkommt. Die Definition kann man dann noch vom Kontext abhängig machen, um die Darstellung auf einen spezifischen Bereich einzuschränken.</p>
+
+        <p><input type="text"></p>
+        <p><input type="radio"></p>
+        <p><input type="checkbox"></p>
+
+        <h2>6 Banner abfangen und per CSS verstecken.</h2>
+        <p>Hier ist ein Bild mit der Weite 270px und der Höhe 187px eingebunden. Dieses ist als unsichtbar formatiert</p>
+        <p><img src="./icons/ktm.jpg" height="187px" width="270px" alt="KTM"></body></p>
+    </body>
+</html>

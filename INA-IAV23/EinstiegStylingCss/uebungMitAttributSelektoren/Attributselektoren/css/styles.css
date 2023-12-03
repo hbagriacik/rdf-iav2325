@@ -1,0 +1,27 @@
+p > img[alt="KTM"] {
+    display: none;
+}
+
+p > input[type="text"]{
+    border: 1px solid red;
+    width: 350px;
+}
+
+p > a[href="http://irgendwohin.weg"]{
+    padding: 0 25px 0 0;
+    background: url("../icons/extern.png") no-repeat     right;
+    background-size: 1.2em 1.2em;
+
+}
+
+p > a[href="https://www.jpcycles.com/makes/ktm"]{
+    border: 1px solid black;
+}
+
+p > a[href="https://www.ktm-motohall.com/"]{
+    border: 1px solid black;
+}
+
+p > a[title="Titel: Stadtportal Nürnberg"]{
+    border: 1px solid red;
+}
