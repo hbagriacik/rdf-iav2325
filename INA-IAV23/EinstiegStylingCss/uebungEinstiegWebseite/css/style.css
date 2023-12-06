@@ -1,0 +1,23 @@
+
+.element
+{
+width: 300px;
+height: 395px;
+margin-right: 0px;
+margin-bottom: 20px;
+float: left;
+overflow: hidden;
+position: relative;
+color: #11167d;
+}
+
+.element#el_2
+{
+margin-right: 0px;	
+}
+
+.element * {
+  position: relative;
+  margin: 0;
+}
+
