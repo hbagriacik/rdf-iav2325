@@ -57,9 +57,11 @@ void berechnen(double laenge, double breite, double quadratPreis, double *quadra
 }
 
 void ausgabe(double quadratMeter, double materialKosten, double arbeitskosten, double umsatzsteuer, double bruttopreis){
+    printf("-------------------------------------------------");
     printf("\nQuadratmerter: %.2f\n", quadratMeter);
     printf("Materialkosten: %.2f\n", materialKosten);
     printf("Arbeitskosten: %.2f\n", arbeitskosten);
     printf("Bruttopreis: %.2f\n", bruttopreis);
     printf("Umsatzsteuer: %.2f\n", umsatzsteuer);
+    printf("-------------------------------------------------");
 }
