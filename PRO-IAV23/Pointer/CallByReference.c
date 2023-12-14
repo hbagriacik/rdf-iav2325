@@ -14,6 +14,8 @@ int main () {
     float hoehe = 0;
     float ergebnis = 0;
 
+   // float *ptrLaenge = &laenge;
+
     /*
     // Speicheradresse von Höhe
     float *ptrLaenge = &laenge;
