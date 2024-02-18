@@ -2,9 +2,9 @@
 
 ### 1 / 4 - Semester
 ### IAV 1
-1 - <a href="https://github.com/hbagriacik/rdf-iav2325/tree/main/BSA-IAV23%20(RDF%20Github%20Acc%20Sync)">Betriebssysteme und Administration (BSA)</a><br>
-2 - <a href="https://github.com/hbagriacik/rdf-iav2325/tree/main/INA-IAV23">Internetanwendung (INA)</a><br>
-3 - <a href="https://github.com/hbagriacik/rdf-iav2325/tree/main/PRO-IAV23">Programmieren (PRO)</a><br>
+1 - <a href="https://github.com/hbagriacik/rdf-iav2325/tree/main/IAV_1/BSA-IAV23%20(RDF%20Github%20Acc%20Sync)">Betriebssysteme und Administration (BSA)</a><br>
+2 - <a href="https://github.com/hbagriacik/rdf-iav2325/tree/main/IAV_1/INA-IAV23">Internetanwendung (INA)</a><br>
+3 - <a href="https://github.com/hbagriacik/rdf-iav2325/tree/main/IAV_1/PRO-IAV23">Programmieren (PRO)</a><br>
 
 <hr>
 
