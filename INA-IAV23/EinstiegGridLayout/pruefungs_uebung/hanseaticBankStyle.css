@@ -1,0 +1,42 @@
+body {
+    margin: 5% 7% 3% 7%;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    text-align: center;
+}
+
+header {
+    /*border: 2px solid rgb(214, 12, 12);*/
+    height: 200px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+    grid-column: 1 / 3;
+}
+
+#logo {
+    border: 1px solid rgb(255, 47, 172); 
+    grid-row: 1 / 3;
+}
+
+#customer-nav {
+    border: 1px solid greenyellow;
+    grid-column: 2 / 4;
+    grid-row: 1 / 3;
+}
+
+#homepage-nav {
+    border: 1px solid rgb(109, 47, 255);
+    grid-column: 2 / 4;
+    grid-row:  2 / 3;
+}
+
+main{
+    grid-column: 1 / 3;
+}
+
+article {
+    height: 460px;
+    border: 2px solid black;
+    grid-column: 1/3;
+}
