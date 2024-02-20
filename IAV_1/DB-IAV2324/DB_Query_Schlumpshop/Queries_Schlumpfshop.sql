@@ -1,3 +1,7 @@
+/*
+SELECT, FROM, WHERE, ORDER; JOIN
+*/
+
 /*Aufgabe 1: 
 Die Marketingabteilung benötigt eine Liste aller männlichen Kunden mit Vorname, Name und Geburtsdatum. */
 
