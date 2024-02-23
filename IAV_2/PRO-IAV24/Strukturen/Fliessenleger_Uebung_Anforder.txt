@@ -8,12 +8,9 @@ Materialkosten und Arbeitskosten ergeben dann den Nettopreis. auf welchen die Um
 Das Programm soll für jedes Angebot den Namen des Kunden, die Materialkosten, die Arbeitskosten, den Bruttopreis und die Umsatzsteuer ausgeben.
 
 
-
 Arbeiten Sie mit Funktionen!
 
 
 Es soll die Eingabe in eine Funktion “eingabe” ausgelagert werden. Die Berechnung der Dreiecksfläche und der Rechteckfläche sollen in jeweils eine eigene Funktion ausgelagert werden, welche von der Funktion Eingabe aus aufgerufen wird.
-
 Die Preisberechnung und die Ausgabe sollen in jeweils getrennten Funktionen erfolgen.
-
 Arbeiten Sie mit Strukturen. Die Struktur soll lokal deklariert werden.
