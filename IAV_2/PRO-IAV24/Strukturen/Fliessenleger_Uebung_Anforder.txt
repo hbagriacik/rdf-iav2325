@@ -1,0 +1,19 @@
+Ein Fliesenleger benötigt ein Programm für die Angebotserstellung. Das Programm soll den Benutzer nach dem Vornamen und Nachnamen des Kunden und dann nach der Form der zu verlegenden Grundfläche fragen, zur Auswahl stehen Dreieck und Rechteck. dann sollen die Maße abgefragt werden, beim Dreieck Grundseite und Höhe, beim Rechteck Länge und Breite, Anschließend soll das Programm den Quadratmeterpreis der vom Kunden ausgewählten Fliesen abfragen.
+
+
+Das Programm soll dann die Quadratmeter der zu verlegenden Fläche berechnen und 8% Verschnitt darauf schlagen. Dann sollen die Materialkosten anhand des Quadratmeterpreises der Fliesen berechnet werden. Für die Arbeitskosten soll das Programm mit 10,56 € pro Quadratmeter rechnen.
+
+Materialkosten und Arbeitskosten ergeben dann den Nettopreis. auf welchen die Umsatzsteuer (19%) aufgeschlagen wird.
+
+Das Programm soll für jedes Angebot den Namen des Kunden, die Materialkosten, die Arbeitskosten, den Bruttopreis und die Umsatzsteuer ausgeben.
+
+
+
+Arbeiten Sie mit Funktionen!
+
+
+Es soll die Eingabe in eine Funktion “eingabe” ausgelagert werden. Die Berechnung der Dreiecksfläche und der Rechteckfläche sollen in jeweils eine eigene Funktion ausgelagert werden, welche von der Funktion Eingabe aus aufgerufen wird.
+
+Die Preisberechnung und die Ausgabe sollen in jeweils getrennten Funktionen erfolgen.
+
+Arbeiten Sie mit Strukturen. Die Struktur soll lokal deklariert werden.
