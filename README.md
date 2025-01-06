@@ -27,7 +27,7 @@
 1 - <a href="">Betriebssysteme und Administration (BSA)</a> \
 2 - <a href="">Automatisierungstechnik (AIS)</a> \
 3 - <a href="">Programmierung (PRO)</a> \
-4 - <a hre="">Datenbanken (DB)</a> <br>
+4 - <a href="">Datenbanken (DB)</a> \
 5 - <a href="">Kommunikation und Netzwerktechnik (KNT)</a> \
 6 - <a href="">Mikrocontroller (MCR)</a> \
 7 - <a href="">Projektarbeit - SchoolLab 2023/25 (PA)</a><br>
@@ -39,7 +39,7 @@
 1 - <a href="">Betriebssysteme und Administration (BSA)</a> \
 2 - <a href="">Automatisierungstechnik (AIS)</a> \
 3 - <a href="">Programmierung (PRO)</a> \
-4 - <a hre="">Datenbanken (DB)</a> <br>
+4 - <a href="">Datenbanken (DB)</a> \
 5 - <a href="">Kommunikation und Netzwerktechnik (KNT)</a> \
 6 - <a href="">Mikrocontroller (MCR)</a> \
 7 - <a href="">Projektarbeit - SchoolLab 2023/25 (PA)</a><br>
